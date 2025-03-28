@@ -52,7 +52,7 @@ export function ChatHistoryPanel(_props: ChatHistoryPanelProps) {
 
   const clearAllDialogContentProps = {
     type: DialogType.close,
-    title: !clearingError ? 'Are you sure you want to clear all chat history?' : 'Error deleting all of chat history',
+    title: !clearingError ? 'Oletko varma kaiken chat historian poistosta?' : 'Error deleting all of chat history',
     closeButtonAriaLabel: 'Close',
     subText: !clearingError
       ? 'All chat history will be permanently removed.'
